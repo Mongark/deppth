@@ -3,13 +3,14 @@
 Small CLI tool to check the dependency size of a repository.
 
 ### Command Flags
-`-r`/`--repository`: specifies a repository to be analysed. Excludes `-c`/`--crate`.
-`-c`/`--crate`: specifies a crate to be analysed.
-`-t`/`--tree`: outputs dependency tree.
-`-s`/`--size`: outputs dependency size in byte format.
-`-h`/`--help`: outputs basic documentation.
-`-H`: makes the size output more human-friendly.
-`-d`/`--depth`: specifies how deep to output the dependency tree. Excludes repository-based flags.
+
+ - `-r`/`--repository`: specifies a repository to be analysed. Excludes `-c`/`--crate`.
+ - `-c`/`--crate`: specifies a crate to be analysed.
+ - `-t`/`--tree`: outputs dependency tree.
+ - `-s`/`--size`: outputs dependency size in byte format.
+ - `-h`/`--help`: outputs basic documentation.
+ - `-H`: makes the size output more human-friendly.
+ - `-d`/`--depth`: specifies how deep to output the dependency tree. Excludes repository-based flags.
 
 ### Bussiness Rules
  * Should have a flag for checking a crate.
